@@ -1,0 +1,114 @@
+{
+  "topicId": "open-source-ddl",
+  "generatedAt": "2026-05-15T18:03:01.918Z",
+  "sourcePolicy": "Chinese-first display. Dates are preserved from the hub dataset; crawlers must verify against official pages before strict mode.",
+  "sourceFamilies": [
+    {
+      "id": "gsoc",
+      "name": "Google Summer of Code",
+      "url": "https://summerofcode.withgoogle.com",
+      "adapter": "gsocAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "ospp",
+      "name": "Open Source Promotion Plan",
+      "url": "https://summer-ospp.ac.cn",
+      "adapter": "osppAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "lfx",
+      "name": "LFX Mentorship",
+      "url": "https://mentorship.lfx.linuxfoundation.org",
+      "adapter": "lfxAdapter",
+      "confidence": "official"
+    },
+    {
+      "id": "outreachy",
+      "name": "Outreachy",
+      "url": "https://www.outreachy.org",
+      "adapter": "outreachyAdapter",
+      "confidence": "official"
+    }
+  ],
+  "itemSources": [
+    {
+      "name": "Google Summer of Code",
+      "url": "https://summerofcode.withgoogle.com",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "开源之夏",
+      "url": "https://summer-ospp.ac.cn",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "LFX Mentorship",
+      "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Outreachy",
+      "url": "https://www.outreachy.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "summerofcode.withgoogle.com",
+      "url": "https://summerofcode.withgoogle.com",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "NumFOCUS Grants",
+      "url": "https://numfocus.org/programs/small-development-grants",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "CNCF Mentoring",
+      "url": "https://github.com/cncf/mentoring",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Apache Community Over Code",
+      "url": "https://communityovercode.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "PyCon US",
+      "url": "https://us.pycon.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "OpenSSF",
+      "url": "https://openssf.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "FOSSASIA Summit",
+      "url": "https://summit.fossasia.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    }
+  ]
+}
