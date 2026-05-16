@@ -1,6 +1,6 @@
 {
   "topicId": "open-source-ddl",
-  "generatedAt": "2026-05-16T02:32:00.413Z",
+  "generatedAt": "2026-05-16T05:27:53.777Z",
   "adapterCount": 4,
   "reachableCount": 4,
   "parsedItemCount": 10,
@@ -198,8 +198,8 @@
       "httpStatus": 200,
       "finalUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
       "title": "Google Summer of Code Timeline &nbsp;|&nbsp; Google for Developers",
-      "contentLength": 73140,
-      "fetchedAt": "2026-05-16T02:31:57.746Z",
+      "contentLength": 73136,
+      "fetchedAt": "2026-05-16T05:27:51.333Z",
       "note": "Parsed 10 items from GSoC 2026 timeline; rejected 17 date-window outliers.",
       "error": null,
       "parsedItemCount": 10,
@@ -216,7 +216,7 @@
       "finalUrl": "https://summer-ospp.ac.cn/",
       "title": "开源软件供应链点亮计划-开源之夏2025",
       "contentLength": 1258,
-      "fetchedAt": "2026-05-16T02:31:58.036Z",
+      "fetchedAt": "2026-05-16T05:27:51.648Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -230,7 +230,7 @@
       "finalUrl": "https://mentorship.lfx.linuxfoundation.org/",
       "title": "Mentorship",
       "contentLength": 3481,
-      "fetchedAt": "2026-05-16T02:31:59.270Z",
+      "fetchedAt": "2026-05-16T05:27:52.675Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -244,7 +244,7 @@
       "finalUrl": "https://www.outreachy.org/",
       "title": "Outreachy | Internships Supporting Diversity in Tech\n      \n\n      \n        \n          - Outreachy",
       "contentLength": 18308,
-      "fetchedAt": "2026-05-16T02:31:59.757Z",
+      "fetchedAt": "2026-05-16T05:27:53.165Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     }
