@@ -1,12 +1,12 @@
 {
   "topicId": "open-source-ddl",
-  "generatedAt": "2026-05-15T23:49:10.094Z",
+  "generatedAt": "2026-05-16T02:25:44.073Z",
   "sourcePolicy": "Chinese-first display. Dates are preserved from the hub dataset; crawlers must verify against official pages before strict mode.",
   "sourceFamilies": [
     {
       "id": "gsoc",
       "name": "Google Summer of Code",
-      "url": "https://summerofcode.withgoogle.com",
+      "url": "https://developers.google.com/open-source/gsoc/timeline",
       "adapter": "gsocAdapter",
       "confidence": "official"
     },

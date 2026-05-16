@@ -1,0 +1,252 @@
+{
+  "topicId": "open-source-ddl",
+  "generatedAt": "2026-05-16T02:26:11.706Z",
+  "adapterCount": 4,
+  "reachableCount": 4,
+  "parsedItemCount": 10,
+  "previousParsedItemCount": 12,
+  "parserHealthy": true,
+  "parserDropOk": true,
+  "adapters": [
+    {
+      "sourceId": "gsoc",
+      "source": "Google Summer of Code",
+      "url": "https://developers.google.com/open-source/gsoc/timeline",
+      "items": [
+        {
+          "id": "gsoc-2026-may-1-24-community-bonding-period-gsoc-contributors-get-to-know-mentors-read-doc",
+          "title": "Community Bonding Period | GSoC contributors get to know mentors, read documentation, get up to speed to begin working on their projects",
+          "deadline": "2026-05-24T23:59:59Z",
+          "dateRange": "May 1 - 24",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "GSoC",
+            "open source"
+          ],
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "status": "upcoming",
+          "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
+          "stage": "Milestone",
+          "source": "Google Summer of Code",
+          "type": "program"
+        },
+        {
+          "id": "gsoc-2026-may-25-coding-officially-begins",
+          "title": "Coding officially begins!",
+          "deadline": "2026-05-25T23:59:59Z",
+          "dateRange": "May 25",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "GSoC",
+            "open source"
+          ],
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "status": "upcoming",
+          "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
+          "stage": "Milestone",
+          "source": "Google Summer of Code",
+          "type": "program"
+        },
+        {
+          "id": "gsoc-2026-july-6-18-00-utc-mentors-and-gsoc-contributors-can-begin-submitting-midterm-eval",
+          "title": "Mentors and GSoC contributors can begin submitting midterm evaluations (for standard 12 week coding projects)",
+          "deadline": "2026-07-06T18:00:00Z",
+          "dateRange": "July 6 - 18:00 UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "GSoC",
+            "open source"
+          ],
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "status": "upcoming",
+          "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
+          "stage": "Milestone",
+          "source": "Google Summer of Code",
+          "type": "program"
+        },
+        {
+          "id": "gsoc-2026-july-10-18-00-utc-midterm-evaluation-deadline-standard-coding-period",
+          "title": "Midterm evaluation deadline (standard coding period)",
+          "deadline": "2026-07-10T18:00:00Z",
+          "dateRange": "July 10 - 18:00 UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "GSoC",
+            "open source"
+          ],
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "status": "upcoming",
+          "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+          "stage": "Deadline",
+          "source": "Google Summer of Code",
+          "type": "program"
+        },
+        {
+          "id": "gsoc-2026-july-6-august-16-work-period-gsoc-contributors-work-on-their-project-with-guidan",
+          "title": "Work Period | GSoC contributors work on their project with guidance from Mentors",
+          "deadline": "2026-08-16T23:59:59Z",
+          "dateRange": "July 6 - August 16",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "GSoC",
+            "open source"
+          ],
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "status": "upcoming",
+          "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
+          "stage": "Milestone",
+          "source": "Google Summer of Code",
+          "type": "program"
+        },
+        {
+          "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
+          "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
+          "deadline": "2026-08-24T18:00:00Z",
+          "dateRange": "August 17 - 24 - 18:00 UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "GSoC",
+            "open source"
+          ],
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "status": "upcoming",
+          "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+          "stage": "Deadline",
+          "source": "Google Summer of Code",
+          "type": "program"
+        },
+        {
+          "id": "gsoc-2026-august-24-31-18-00-utc-mentors-submit-final-gsoc-contributor-evaluations-standar",
+          "title": "Mentors submit final GSoC contributor evaluations (standard coding period)",
+          "deadline": "2026-08-31T18:00:00Z",
+          "dateRange": "August 24 - 31 - 18:00 UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "GSoC",
+            "open source"
+          ],
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "status": "upcoming",
+          "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+          "stage": "Deadline",
+          "source": "Google Summer of Code",
+          "type": "program"
+        },
+        {
+          "id": "gsoc-2026-august-24-november-2-gsoc-contributors-with-extended-timelines-continue-coding",
+          "title": "GSoC contributors with extended timelines continue coding",
+          "deadline": "2026-11-02T23:59:59Z",
+          "dateRange": "August 24 - November 2",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "GSoC",
+            "open source"
+          ],
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "status": "upcoming",
+          "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
+          "stage": "Milestone",
+          "source": "Google Summer of Code",
+          "type": "program"
+        },
+        {
+          "id": "gsoc-2026-november-2-18-00-utc-final-date-for-all-gsoc-contributors-to-submit-their-final-",
+          "title": "Final date for all GSoC contributors to submit their final work product and final evaluation",
+          "deadline": "2026-11-02T18:00:00Z",
+          "dateRange": "November 2 - 18:00 UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "GSoC",
+            "open source"
+          ],
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "status": "upcoming",
+          "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+          "stage": "Deadline",
+          "source": "Google Summer of Code",
+          "type": "program"
+        },
+        {
+          "id": "gsoc-2026-november-9-18-00-utc-final-date-for-mentors-to-submit-evaluations-for-gsoc-contr",
+          "title": "Final date for mentors to submit evaluations for GSoC contributor projects with extended deadlines",
+          "deadline": "2026-11-09T18:00:00Z",
+          "dateRange": "November 9 - 18:00 UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "GSoC",
+            "open source"
+          ],
+          "url": "https://developers.google.com/open-source/gsoc/timeline",
+          "status": "upcoming",
+          "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+          "stage": "Deadline",
+          "source": "Google Summer of Code",
+          "type": "program"
+        }
+      ],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://developers.google.com/open-source/gsoc/timeline",
+      "title": "Google Summer of Code Timeline &nbsp;|&nbsp; Google for Developers",
+      "contentLength": 73138,
+      "fetchedAt": "2026-05-16T02:25:58.363Z",
+      "note": "Parsed 10 items from GSoC 2026 timeline; rejected 17 date-window outliers.",
+      "error": null,
+      "parsedItemCount": 10,
+      "invalidItemCount": 17,
+      "parserHealthy": true
+    },
+    {
+      "sourceId": "ospp",
+      "source": "Open Source Promotion Plan",
+      "url": "https://summer-ospp.ac.cn",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://summer-ospp.ac.cn/",
+      "title": "开源软件供应链点亮计划-开源之夏2025",
+      "contentLength": 1258,
+      "fetchedAt": "2026-05-16T02:26:09.820Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "lfx",
+      "source": "LFX Mentorship",
+      "url": "https://mentorship.lfx.linuxfoundation.org",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://mentorship.lfx.linuxfoundation.org/",
+      "title": "Mentorship",
+      "contentLength": 3481,
+      "fetchedAt": "2026-05-16T02:26:09.945Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "outreachy",
+      "source": "Outreachy",
+      "url": "https://www.outreachy.org",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.outreachy.org/",
+      "title": "Outreachy | Internships Supporting Diversity in Tech\n      \n\n      \n        \n          - Outreachy",
+      "contentLength": 18308,
+      "fetchedAt": "2026-05-16T02:26:10.810Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    }
+  ]
+}
