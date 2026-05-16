@@ -106,7 +106,7 @@
         <h1>开源计划</h1>
         <p class="lead">GSoC、OSPP、LFX、Outreachy、开源实习与社区贡献计划截止日。每条事件都显示倒计时，并保留来源入口，方便后续 crawler 自动校验。</p>
         <div class="stats">
-          <div class="stat"><strong>16</strong><span>活跃条目</span></div>
+          <div class="stat"><strong id="itemCount">-</strong><span>活跃条目</span></div>
           <div class="stat"><strong>4</strong><span>来源族</span></div>
           <div class="stat"><strong id="nextDays">-</strong><span>下一条</span></div>
         </div>
@@ -129,9 +129,9 @@
   </main>
   <footer>开源计划 DDL is part of Just-DDL Network. Generated as a production-ready topic repository scaffold.</footer>
   <script>
-    const items = [{"id":"open-source-ddl-google-summer-of-code-org-application-2026-07-01","title":"Google Summer of Code Org Application","deadline":"2026-07-01T23:59:59","dateRange":"Jul 2026","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://summerofcode.withgoogle.com","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Google Summer of Code","type":"program"},{"id":"open-source-ddl-google-summer-of-code-contributor-application-2026-07-19","title":"Google Summer of Code Contributor Application","deadline":"2026-07-19T23:59:59","dateRange":"Jul 2026","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://summerofcode.withgoogle.com","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Google Summer of Code","type":"program"},{"id":"open-source-ddl-open-source-promotion-plan-application-2026-08-06","title":"Open Source Promotion Plan Application","deadline":"2026-08-06T23:59:59","dateRange":"Aug 2026","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://summer-ospp.ac.cn","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"开源之夏","type":"program"},{"id":"open-source-ddl-lfx-mentorship-spring-2026-08-24","title":"LFX Mentorship Spring","deadline":"2026-08-24T23:59:59","dateRange":"Aug 2026","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://lfx.linuxfoundation.org/tools/mentorship/","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"LFX Mentorship","type":"program"},{"id":"open-source-ddl-outreachy-internship-application-2026-09-11","title":"Outreachy Internship Application","deadline":"2026-09-11T23:59:59","dateRange":"Sep 2026","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://www.outreachy.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Outreachy","type":"program"},{"id":"open-source-ddl-rails-girls-summer-of-code-2026-09-29","title":"Rails Girls Summer of Code","deadline":"2026-09-29T23:59:59","dateRange":"Sep 2026","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://summerofcode.withgoogle.com","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"summerofcode.withgoogle.com","type":"program"},{"id":"open-source-ddl-numfocus-small-development-grants-2026-10-17","title":"NumFOCUS Small Development Grants","deadline":"2026-10-17T23:59:59","dateRange":"Oct 2026","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://numfocus.org/programs/small-development-grants","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"NumFOCUS Grants","type":"program"},{"id":"open-source-ddl-mozilla-builders-incubator-2026-11-04","title":"Mozilla Builders Incubator","deadline":"2026-11-04T23:59:59","dateRange":"Nov 2026","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://summerofcode.withgoogle.com","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"summerofcode.withgoogle.com","type":"program"},{"id":"open-source-ddl-hacktoberfest-maintainer-prep-2026-11-22","title":"Hacktoberfest Maintainer Prep","deadline":"2026-11-22T23:59:59","dateRange":"Nov 2026","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://summerofcode.withgoogle.com","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"summerofcode.withgoogle.com","type":"program"},{"id":"open-source-ddl-cncf-mentoring-program-2026-12-10","title":"CNCF Mentoring Program","deadline":"2026-12-10T23:59:59","dateRange":"Dec 2026","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://github.com/cncf/mentoring","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"CNCF Mentoring","type":"program"},{"id":"open-source-ddl-apache-community-over-code-cfp-2026-12-28","title":"Apache Community Over Code CFP","deadline":"2026-12-28T23:59:59","dateRange":"Dec 2026","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://communityovercode.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Apache Community Over Code","type":"program"},{"id":"open-source-ddl-pycon-open-spaces-proposal-2027-01-15","title":"PyCon Open Spaces Proposal","deadline":"2027-01-15T23:59:59","dateRange":"Jan 2027","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://us.pycon.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"PyCon US","type":"program"},{"id":"open-source-ddl-openjs-collaborator-summit-cfp-2027-02-02","title":"OpenJS Collaborator Summit CFP","deadline":"2027-02-02T23:59:59","dateRange":"Feb 2027","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://summerofcode.withgoogle.com","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"summerofcode.withgoogle.com","type":"program"},{"id":"open-source-ddl-rust-project-fellowship-window-2027-02-20","title":"Rust Project Fellowship Window","deadline":"2027-02-20T23:59:59","dateRange":"Feb 2027","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://summerofcode.withgoogle.com","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"summerofcode.withgoogle.com","type":"program"},{"id":"open-source-ddl-openssf-security-tooling-grant-2027-03-10","title":"OpenSSF Security Tooling Grant","deadline":"2027-03-10T23:59:59","dateRange":"Mar 2027","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://openssf.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"OpenSSF","type":"program"},{"id":"open-source-ddl-fossasia-summit-cfp-2027-03-28","title":"FOSSASIA Summit CFP","deadline":"2027-03-28T23:59:59","dateRange":"Mar 2027","location":"Online","isOnline":true,"tags":["GSoC","OSPP","LFX"],"url":"https://summit.fossasia.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"FOSSASIA Summit","type":"program"}];
+    let items = [];
+    let sorted = [];
     const formatter = new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
-    const sorted = [...items].sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
     function diffParts(deadline) {
       const ms = new Date(deadline) - new Date();
       const positive = Math.max(0, ms);
@@ -141,6 +141,7 @@
       return { days, hours, minutes, ended: ms < 0 };
     }
     function render() {
+      sorted = [...items].sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
       const root = document.getElementById('events');
       const htmlEscape = value => String(value || '')
         .replaceAll('&', '&amp;')
@@ -148,6 +149,11 @@
         .replaceAll('>', '&gt;')
         .replaceAll('"', '&quot;')
         .replaceAll("'", '&#39;');
+      if (!sorted.length) {
+        root.innerHTML = '<article class="event"><h3>暂无可展示条目</h3><div class="desc">数据文件暂不可用，请稍后刷新。</div></article>';
+        document.getElementById('itemCount').textContent = '0';
+        return;
+      }
       root.innerHTML = sorted.map(item => {
         const diff = diffParts(item.deadline);
         const tags = (item.tags || []).map(tag => '<span class="tag">' + htmlEscape(tag) + '</span>').join('');
@@ -165,10 +171,21 @@
           '<a class="button" href="' + htmlEscape(encodeURI(item.url)) + '">查看来源</a>' +
         '</article>';
       }).join('');
+      document.getElementById('itemCount').textContent = String(sorted.length);
       const next = sorted.find(item => new Date(item.deadline) >= new Date()) || sorted[0];
       if (next) document.getElementById('nextDays').textContent = diffParts(next.deadline).days + ' 天后';
     }
-    render();
+    async function loadItems() {
+      try {
+        const response = await fetch('data/items.json', { cache: 'no-store' });
+        if (response.ok) {
+          const freshItems = await response.json();
+          if (Array.isArray(freshItems) && freshItems.length) items = freshItems;
+        }
+      } catch {}
+      render();
+    }
+    loadItems();
     setInterval(render, 60000);
   </script>
 </body>

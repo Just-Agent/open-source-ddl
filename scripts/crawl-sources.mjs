@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import { spawnSync } from 'node:child_process';
 
-const CRAWL_TIMEOUT_MS = Number(process.env.CRAWL_TIMEOUT_MS) || 10000;
+const CRAWL_TIMEOUT_MS = Number(process.env.CRAWL_TIMEOUT_MS) || 20000;
+const REACHABILITY_TIMEOUT_MS = Number(process.env.REACHABILITY_TIMEOUT_MS) || Math.min(7000, CRAWL_TIMEOUT_MS);
 const USER_AGENT = 'Just-DDL-Crawler/1.0 (+https://just-agent.github.io/just-ddl/)';
 
 function extractTitle(html) {
@@ -44,7 +45,7 @@ async function fetchSourcePage(source) {
   };
   try {
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), CRAWL_TIMEOUT_MS);
+    const timer = setTimeout(() => controller.abort(), REACHABILITY_TIMEOUT_MS);
     const res = await fetch(source.url, {
       redirect: 'follow',
       signal: controller.signal,
@@ -61,7 +62,7 @@ async function fetchSourcePage(source) {
       ? 'Source reachable. Curated data/items.json preserved until item parser is implemented.'
       : `Source returned HTTP ${res.status}. Curated data/items.json preserved.`;
   } catch (err) {
-    report.error = err.name === 'AbortError' ? `Timeout after ${CRAWL_TIMEOUT_MS}ms` : err.message;
+    report.error = err.name === 'AbortError' ? `Timeout after ${REACHABILITY_TIMEOUT_MS}ms` : err.message;
     report.note = `Source fetch failed: ${report.error}. Curated data/items.json preserved.`;
   }
   return report;
@@ -263,11 +264,7 @@ try {
   const previousReport = JSON.parse(fs.readFileSync(new URL('../data/crawl-report.json', import.meta.url), 'utf8'));
   previousParsedItemCount = previousReport.parsedItemCount ?? null;
 } catch {}
-const reports = [];
-
-for (const adapter of adapters) {
-  reports.push(await adapter());
-}
+const reports = await Promise.all(adapters.map(adapter => adapter()));
 
 const harvestedItems = reports.flatMap(report => report.items);
 const parsedItemCount = reports.reduce((s, r) => s + (r.parsedItemCount || 0), 0);
