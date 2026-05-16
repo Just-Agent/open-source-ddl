@@ -13,7 +13,7 @@ function fetchViaPowerShell(url) {
   if (process.platform !== 'win32') return null;
   const timeoutSec = Math.max(15, Math.ceil(CRAWL_TIMEOUT_MS / 1000) + 5);
   const escapedUrl = url.replace(/'/g, "''");
-  const script = "$ProgressPreference='SilentlyContinue'; [Console]::OutputEncoding=[System.Text.UTF8Encoding]::new($false); (Invoke-WebRequest -Uri '" + escapedUrl + "' -UseBasicParsing -TimeoutSec " + timeoutSec + " -Headers @{ 'User-Agent'='Mozilla/5.0' }).Content";
+  const script = "$ProgressPreference='SilentlyContinue'; [Console]::OutputEncoding=[System.Text.UTF8Encoding]::new($false); (Invoke-WebRequest -Uri '" + escapedUrl + "' -UseBasicParsing -TimeoutSec " + timeoutSec + " -Headers @{ 'User-Agent'='Mozilla/5.0'; 'Accept-Language'='en-US,en;q=0.9' }).Content";
   for (const command of ['pwsh', 'powershell']) {
     const result = spawnSync(command, ['-NoLogo', '-NoProfile', '-NonInteractive', '-Command', script], {
       encoding: 'utf8',
@@ -67,7 +67,7 @@ async function fetchSourcePage(source) {
   return report;
 }
 
-const GSOC_TIMELINE_URL = 'https://developers.google.com/open-source/gsoc/timeline';
+const GSOC_TIMELINE_URL = 'https://developers.google.com/open-source/gsoc/timeline?hl=en';
 const GSOC_MIN_ITEMS = 8;
 const GSOC_MAX_FUTURE_DAYS = Number(process.env.GSOC_MAX_FUTURE_DAYS) || 500;
 
@@ -143,7 +143,7 @@ async function parseGsocItems() {
       const res = await fetch(GSOC_TIMELINE_URL, {
         redirect: 'follow',
         signal: controller.signal,
-        headers: { 'User-Agent': USER_AGENT }
+        headers: { 'User-Agent': USER_AGENT, 'Accept-Language': 'en-US,en;q=0.9' }
       });
       clearTimeout(timer);
       report.httpStatus = res.status;
